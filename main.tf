@@ -18,6 +18,6 @@ resource "aws_instance" "myhost" {
     ami = "ami-0d682f26195e9ec0f"
     instance_type = "t3.micro"
     tags = {
-        Name = "hcp-host2"
+        Name = "hcp-host3"
     }
 }
